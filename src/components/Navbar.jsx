@@ -196,7 +196,7 @@ const Navbar = () => {
             Aayaan <br />
             Kumar
           </h1>
-          <div className="w-[500px] h-[250px] bg-[var(--secondary)]/70 rounded-lg mt-[60px] musicBox navItem hidden xl:block relative">
+          <div className="w-[500px] h-[250px] bg-[var(--secondary)]/70 rounded-lg mt-[60px] musicBox navItem hidden xl:block relative border-[1px] border-[var(--primary)]">
             {video ? (
               <video src="./video.mp4" className="w-full h-full bg-cover" autoPlay/>
             ) : (
@@ -213,6 +213,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
