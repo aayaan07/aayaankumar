@@ -130,7 +130,7 @@ const Navbar = () => {
 
       {overlay && (
         <div
-          className="fixed inset-0 flex flex-col xl:pl-[200px] pt-[100px] w-screen h-screen bg-[url('./noise-bg.png')] bg-cover top-0 left-0 text-[var(--primary)] text4xl z-10 space-y-5 overflow-hidden"
+          className="absolute flex flex-col xl:pl-[200px] pt-[100px] w-screen h-screen bg-[#1E1E1E] bg-cover top-0 left-0 text-[var(--primary)] text4xl z-10 space-y-5 overflow-hidden"
           id="overlayMenu"
         >
           <IoIosClose
@@ -196,7 +196,7 @@ const Navbar = () => {
             Aayaan <br />
             Kumar
           </h1>
-          <div className="w-[500px] h-[250px] bg-[var(--secondary)] rounded-lg mt-[60px] musicBox navItem hidden xl:block relative">
+          <div className="w-[500px] h-[250px] bg-[var(--secondary)]/70 rounded-lg mt-[60px] musicBox navItem hidden xl:block relative">
             {video ? (
               <video src="./video.mp4" className="w-full h-full bg-cover" autoPlay/>
             ) : (
@@ -213,6 +213,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
