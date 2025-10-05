@@ -130,7 +130,7 @@ const Navbar = () => {
 
       {overlay && (
         <div
-          className="absolute flex flex-col xl:pl-[200px] pt-[100px] w-screen h-screen bg-[var(--secondary)] top-0 left-0 text-[var(--primary)] text4xl z-10 space-y-5 overflow-hidden"
+          className="absolute flex flex-col xl:pl-[200px] pt-[100px] w-screen h-screen bg-[#1E1E1E] top-0 left-0 text-[var(--primary)] text4xl z-10 space-y-5 overflow-hidden"
           id="overlayMenu"
         >
           <IoIosClose
@@ -213,4 +213,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
