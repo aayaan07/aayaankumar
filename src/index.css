@@ -53,3 +53,7 @@ body {
   scroll-behavior: smooth;
 }
 
+#overlayMenu {
+  background: url("./noise-bg.png");
+  background-size: cover;
+}
