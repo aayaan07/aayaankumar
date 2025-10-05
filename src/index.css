@@ -52,8 +52,3 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-
-#overlayMenu {
-  background: url("./noise-bg.png");
-  background-size: cover;
-}
