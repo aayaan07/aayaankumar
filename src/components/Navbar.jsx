@@ -203,6 +203,7 @@ const Navbar = () => {
               <div className="w-fit mx-auto h-full flex flex-col items-center justify-center text-center Poppins text-3xl text-white font-bold max-w-[75%] cursor-pointer" onClick={() => setVideo(true)}>
                 <strong>Wanna know why I added this box</strong> <br />{" "}
                 <span className="text-white/70 text-xl">Click me</span>
+                <span className="text-white/60 font-normal text-lg">Disclaimer: Lower your volume to 30%/40% before clicking</span>
               </div>
             )}
           </div>
@@ -213,6 +214,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
 
