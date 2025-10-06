@@ -9,7 +9,7 @@ const Projects = () => {
     useGSAP(() => {
         const tl = gsap.timeline({ scrollTrigger: {
             trigger: "#projectsSec",
-            start: "top 30%"
+            start: "top 50%"
         }})
 
         gsap.set(".heading", { yPercent: 25, opacity: 0 })
@@ -18,13 +18,13 @@ const Projects = () => {
         tl.to(".heading", {
             yPercent: 0,
             opacity: 1,
-            duration: 1.5,
+            duration: 1.2,
             ease: "expo.inOut"
         }).to("#project", {
             yPercent: 0,
             opacity: 1,
-            duration: 1.5,
-            stagger: 0.2
+            duration: 1,
+            stagger: 0.15
         }, "-=1")
     })
 
@@ -60,3 +60,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
