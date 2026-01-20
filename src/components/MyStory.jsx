@@ -47,9 +47,9 @@ const MyStory = () => {
 
       <div className="w-fit h-fit flex items-center justify-center relative flex-col">
         <div className="flex lg:flex-col gap-4 lg:mr-20 justify-center">
-          <IoLogoGithub className="w-12 h-12 text-[var(--secondary)] hover:bg-gray-300 p-1 duration-200 rounded-full cursor-pointer"/>
-          <IoLogoLinkedin className="w-12 h-12 text-[var(--secondary)] hover:bg-gray-300 p-1 duration-200 rounded-full cursor-pointer"/>
-          <FaDiscord className="w-12 h-12 text-[var(--secondary)] hover:bg-gray-300 p-1 duration-200 rounded-full cursor-pointer"/>
+          <IoLogoGithub onClick={() => window.open("https://github.com/aayaan07")} className="w-12 h-12 text-[var(--secondary)] hover:bg-gray-300 p-1 duration-200 rounded-full cursor-pointer"/>
+          <IoLogoLinkedin onClick={() => window.open("https://www.linkedin.com/in/aayaan-kumar-61444833b/")} className="w-12 h-12 text-[var(--secondary)] hover:bg-gray-300 p-1 duration-200 rounded-full cursor-pointer"/>
+          <FaDiscord onClick={() => window.open("https://discord.com/users/1033657886208954418")} className="w-12 h-12 text-[var(--secondary)] hover:bg-gray-300 p-1 duration-200 rounded-full cursor-pointer"/>
         </div>
         <h3 className="lg:absolute text-lg font-mono lg:rotate-z-90 underline text-orange-500 lg:right-0 text-nowrap">KNOW ME MORE</h3>
       </div>
@@ -60,3 +60,4 @@ const MyStory = () => {
 };
 
 export default MyStory;
+
