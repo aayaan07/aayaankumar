@@ -21,7 +21,7 @@ const Hero = () => {
     gsap.to(".scrambleText1", {
       duration: 2,
       scrambleText: {
-        text: "FIRST YEAR STUDENT AT IILM UNIVERSITY GURUGRAM, HARYANA",
+        text: "SECOND YEAR STUDENT AT IILM UNIVERSITY GURUGRAM, HARYANA",
         speed: 0.2,
       },
       delay: 1,
